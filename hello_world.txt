@@ -1,3 +1,0 @@
-This file was only created to see if the repository works and if it tracks changes properly.
-
--Ralph
