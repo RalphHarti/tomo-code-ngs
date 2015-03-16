@@ -11,7 +11,7 @@ from remove_lf import remove_lf
 from gauss_fcn2 import gauss_fcn2
 
 
-dir = '/media/ralph/571C-9190/Dropbox/studium/master_project/SEM_images/aligned/with_SIFT/os_fix_high_con_cropped/'
+dir = '/path/to/folder/with/image/stack/'
 
 files = os.listdir(dir)
 #print files
@@ -43,6 +43,6 @@ for i in files:
     
     b = remove_lf(im,m1) # call remove_lf
     imf = Image.fromarray(b)
-    imf.save('test_results/'+i)
+    imf.save('output/path/'+i)
 
 
