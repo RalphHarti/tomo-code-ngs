@@ -1,12 +1,12 @@
+# Taken from http://dragly.org/2013/03/25/working-with-percolation-clusters-in-python/ and adapted a bit to work with actual images
+# -Ralph
+
 from pylab import *
 from scipy.ndimage import measurements
 import numpy
 import Image
  
-#L = 100
 z = numpy.asarray(Image.open('/media/ralph/932C-E76A/image_dump/chalk_alborg_01_0126.rec.16bit.tif').convert('L'))
-#p = 0.4
-#z = r<p
  
 figure(figsize=(16,5))
 subplot(1,3,1)
