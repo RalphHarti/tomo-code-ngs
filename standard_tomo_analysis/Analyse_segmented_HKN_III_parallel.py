@@ -1,3 +1,11 @@
+## This code was provided by H. O. Sørensen (University of Copenhagen)
+
+"""
+The marching cube algorithm is used to calculated the specific surface area of a binary image stack of a porous 
+system. The dictionary in the file "Surface_area.py" is used for evaluation.
+
+
+"""
 #from scipy import ndimage
 import numpy as np
 import fabio
@@ -13,7 +21,7 @@ ncpus = 16 # number of cpu kernels
 firstImage = 100
 lastImage = 185
 
-dir = '/media/ralph/932C-E76A/test/seg_bulk/'
+dir = '/path/to/folder/with/images/'
 # Choose subvolume for evalution (if numbers are None the full volume is used)
 x1 = None
 x2 = None 
@@ -25,7 +33,7 @@ y2 = None
 #y2 = 500 
 
 
-dim1, dim2 = fabio.open('%sbulk_0%d.tif' %(dir,firstImage)).data.shape #determine x,y size of volume
+dim1, dim2 = fabio.open('%sfilename%d.tif' %(dir,firstImage)).data.shape #determine x,y size of volume
 if x1 == None: x1= 0
 if x2 == None: x2= dim1
 if y1 == None: y1= 0
@@ -37,7 +45,7 @@ vol = np.zeros((no_slices,dim1,dim2),dtype=np.bool)
 
 slice = 0
 for i in range(firstImage,lastImage):
-    vol[slice] = fabio.open('%sbulk_0%d.tif' %(dir,i)).data.astype(np.bool)
+    vol[slice] = fabio.open('%sfilename%d.tif' %(dir,i)).data.astype(np.bool)
     slice +=1
 
 #vol[vol==255] = 1
