@@ -2,6 +2,9 @@
 """
 Created on Wed Sep 24 14:46:47 2014
 
+This program computes the wavelet part of the segmentation procedure presented in "3D Imaging of Porous Rocks 
+Length Scales and Fluid Distribution" by Ralph P. Harti (Master Thesis).
+
 @author: ralph
 """
 
