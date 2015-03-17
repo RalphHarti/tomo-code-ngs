@@ -1,3 +1,5 @@
+## This code was provided by H. O. Sørensen (NanoGeoScience Group, University of Copenhagen) 
+##
 ## DICTIONARY OVER SURFACE AREAS
 #
 #Perm_area = {
