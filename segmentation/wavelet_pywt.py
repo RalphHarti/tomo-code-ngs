@@ -2,6 +2,10 @@
 """
 Created on Wed Sep 24 14:46:47 2014
 
+This program computes the wavelet part of the segmentation procedure presented in "3D Imaging of Porous Rocks 
+Length Scales and Fluid Distribution" by Ralph P. Harti (Master Thesis).
+Only for a single image - to treat an image stack see other script.
+
 @author: ralph
 """
 
@@ -13,16 +17,10 @@ import matplotlib.pyplot as plt
 mode = 'haar'   # Defining the used wavelet
 level = 2       # Defining iteration level  
 
-path = '/media/ralph/932C-E76A/image_dump/'
+path = '/path/to/folder/with/image/'
 
-#files = os.listdir(dir)
-#print files
-im = Image.open(path + 'Kim_test.tif')
-#im = Image.open(dir + files[1]).convert('L')
-#print files[1]
+im = Image.open(path + 'filename.tif')
 
-#im = Image.open('/media/ralph/932C-E76A/Dropbox/studium/spyder_workspace_studium/wavelets/lena.png')
-# compute coefficients of multiresolution WT
 coeffs=pywt.wavedec2(im, mode,level=level)
 
 
