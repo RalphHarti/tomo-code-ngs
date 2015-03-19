@@ -1,9 +1,11 @@
+% @author: ralph harti (tpnspign@gmail.com)
+
 clear all
 
 w_image = [];
 
 for k = 1000:3047       % iterates through binray images
-    filename = strcat('/media/lovelace/932C-E76A/combined_cropping/pos3_1461x1462x1461/pos3_combined', num2str(k), '.tif');
+    filename = strcat('/path/to/image/folder/file_name', num2str(k), '.tif');
     imageData = imread(filename);
     i = k-999;
     A(:,:,i) = imageData;
