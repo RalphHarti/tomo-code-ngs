@@ -4,7 +4,7 @@ Created on Thu Sep 11 14:18:51 2014
 
 This program applies the gaussian filter, defined in removel_lf.py to a folder with images.
 
-@author: ralph
+@author: ralph harti (tpnspign@gmail.com)
 """
 import Image
 import os
