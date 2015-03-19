@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 24 14:46:47 2014
 
-@author: ralph
+@author: ralph harti
 """
 
 import Image
