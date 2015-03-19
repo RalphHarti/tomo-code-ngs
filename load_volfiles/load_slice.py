@@ -1,5 +1,5 @@
 # This script can read in .vol images of 'filename' one slice at a time and return each slice as an array.
-# Ralph Harti
+# @author: ralph harti (tpnspign@gmail.com)
 
 from scipy import *
 from numpy import *
