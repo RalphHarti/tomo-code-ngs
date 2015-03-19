@@ -1,5 +1,5 @@
 # Aim of this program is to read a stack of binary images saved in a .vol file an image at a time and save the result as a number of .tif files in a new folder. To do that the original image is matrix multiplied with a gaussian mask. 
-# Ralph  
+# @author: ralph harti (tpnspign@gmail.com)  
 
 import numpy
 import scipy
