@@ -2,7 +2,7 @@
 """
 Created on Thu Sep 11 14:17:39 2014
 
-@author: ralph
+@author: ralph harti (tpnspign@gmail.com)
 """
 
 # This script applies a gaussian mask to a fourier shifted image in order to remove low frequency
