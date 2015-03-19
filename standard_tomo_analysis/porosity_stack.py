@@ -1,5 +1,5 @@
 ## Calculates the porosity of a binary image stack by counting black and white pixels in each slice
-## -Ralph
+## @author: ralph harti (tpnspign@gmail.com)
 
 from PIL import Image
 from matplotlib import pyplot as plt
