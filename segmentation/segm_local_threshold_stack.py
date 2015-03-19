@@ -1,6 +1,6 @@
 ##### This srcipt applies a local segmentation algorithm to an image stack. Useful for segmentation of images with non-uniform illumintation.
 ##### The OpenCV library is used for image related tasks
-##### - Ralph
+##### @author: ralph harti (tpnspign@gmail.com)
 
 import cv2
 import numpy as np
