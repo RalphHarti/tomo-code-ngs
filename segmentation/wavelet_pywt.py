@@ -6,7 +6,7 @@ This program computes the wavelet part of the segmentation procedure presented i
 Length Scales and Fluid Distribution" by Ralph P. Harti (Master Thesis).
 Only for a single image - to treat an image stack see other script.
 
-@author: ralph
+@author: ralph harti (tpnspign@gmail.com)
 """
 
 import Image
