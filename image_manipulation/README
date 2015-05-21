@@ -3,5 +3,5 @@ Scripts and programs to perform standard image manipulation, such as deconvoluti
 -Ralph
 
 Notes on wavelet_pywt_stack.py:
-It uses the pywt python module to perform wavelet transformations on images in a stack and returns a stack of wavelet transfromed .tif images. The wavelet function, as well as the iteration level can be defined.
+It uses the pywt python module to perform wavelet transformations on images in a stack and returns a stack of wavelet transformed .tif images. The wavelet function, as well as the iteration level can be defined.
 -Ralph
